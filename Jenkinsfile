@@ -3,8 +3,8 @@ pipeline {
 
     environment {
         EC2_USER = "ubuntu"
-        EC2_HOST = "3.107.24.84"
-        APP_DIR = "/home/ubuntu/Frontend"
+        EC2_HOST = "54.206.16.51"
+        APP_DIR = "/home/ubuntu/Frontend-"
         PRIVATE_KEY = credentials('jenkins-ec2-key') // Jenkins credential ID
     }
 
